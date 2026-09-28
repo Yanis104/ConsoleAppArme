@@ -20,6 +20,7 @@ namespace ConsoleAppArme
             Console.Write("Entrez le prix de base de l'arme en pièces d'or : ");
             prixBase = decimal.Parse(Console.ReadLine());
 
+            // Affichage des options de provenance
             Console.WriteLine("Choisissez la zone de provenance :");
             Console.WriteLine("1 - Forges de la Capitale (20%)");
             Console.WriteLine("2 - Ateliers des Nains des Montagnes (10%)");
